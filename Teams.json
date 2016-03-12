@@ -1,42 +1,39 @@
 {
   "Teams": [{
-    "name": "Team1",
+    "name": "Activity Planner",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "BioPass",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "Consuminer",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "Peroonlijke Reisassistent",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "Personal Newsticker",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "ProtoInside Case",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "Referendum Platform",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "Thuiszorg Tracker",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "Twinkel",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "Wake Up Bob",
     "url:": "www"
   }, {
-    "name": "Team2",
+    "name": "Wearables Life Improvement",
     "url:": "www"
   }, {
-    "name": "Team2",
-    "url:": "www"
-  }, {
-    "name": "TeamB",
+    "name": "Drone Safe2Fly",
     "url:": "www"
   }
   ]
