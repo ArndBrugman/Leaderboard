@@ -25,12 +25,13 @@ h2 {
 }
 
 a {
-  color: #39c;
-  text-decoration:none;
+  color: #000000;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #069;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 img {
@@ -44,10 +45,6 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-strong {
-  color: #222;
-  font-weight: 700;
-}
 
 .team {
   display: block;
@@ -62,11 +59,12 @@ strong {
 }
 
 footer {
+  display: block;
   font-size: 12px;
   font-weight: 100;
   float: right;
   noposition: fixed;
-  bottom:50px;
+  nobottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
