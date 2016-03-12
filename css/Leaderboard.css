@@ -1,0 +1,96 @@
+body {
+  background-color: #fff;
+  padding:50px;
+  font: 32px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#727272;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  margin:0 0 20px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h2 {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+img {
+  max-width:100%;
+}
+
+header {
+  nodisplay: block;
+  nofloat: left;
+  noposition: fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+
+.team {
+  font-size: 16px;
+  display: block;
+  background-color: #ff4019;
+  max-width: 100%;
+  width: 256px;
+  height: 256px;
+  float: left;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #ffd700;
+  width: 25%;
+  height: 25%;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+footer {
+  nodisplay: block;
+  font-size: 12px;
+  font-weight: 100;
+  float: right;
+  noposition: fixed;
+  nobottom:50px;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+@media print, screen and (max-width: 960px) {
+
+}
+
+@media print, screen and (max-width: 720px) {
+
+}
+
+@media print, screen and (max-width: 480px) {
+
+}
+
+@media print {
+
+}
