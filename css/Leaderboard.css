@@ -31,7 +31,8 @@ a {
 }
 
 a:hover {
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -63,11 +64,45 @@ header {
   font-size: 8px;
   display: inline-block;
   background-color: #ffd700;
-  width: 25%;
-  height: 25%;
-  margin: 2px;
-  padding: 2px;
+  width: 32%;
+  height: 32%;
   border-radius: 3px;
+}
+
+.Gray {
+  background-color: #040404;
+  background-image: url(../img/Gray.png);
+  background-size: cover;
+}
+
+.Bronze {
+  background-color: #CD7F32;
+  background-image: url(../img/Bronze.png);
+  background-size: cover;
+}
+
+.Silver {
+  background-color: #C0C0C0;
+  background-image: url(../img/Silver.png);
+  background-size: cover;
+}
+
+.Gold {
+  background-color: #FDD017;
+  background-image: url(../img/Gold.png);
+  background-size: cover;
+}
+
+.Platinum {
+  background-color: #E5E4E2;
+  background-image: url(../img/Platinum.png);
+  background-size: cover;
+}
+
+.Diamond {
+  background-color: #4EE2EC;
+  background-image: url(../img/Diamond.png);
+  background-size: cover;
 }
 
 footer {
