@@ -20,15 +20,37 @@
   <body>
     <div id='Leaderboard' ng-controller='LeaderboardController as LeaderboardCtrl'>
       <header>
-        <h1>Sogeti Battle</h1>
+        <h1>Sogeti Applied Innovation Battle</h1>
         <h2>Leaderboard for Teams</h2>
       </header>
-      <div class="team" ng-repeat="Team in Teams">
+      <div class="team" ng-repeat="Team in Teams | orderBy : 'Points' : true">
         <a href='{{Team.url}}'>{{Team.name}}</a><br>
-        <div class="badge"> </div>
-        <div class="badge"> </div>
-        <div class="badge"> </div>
-        <div class="badge"> </div>
+        <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
+          <div class="badge Bronze" ng-show="Value==='Bronze'">
+            {{Key}}
+            {{Value}}
+          </div>
+          <div class="badge Silver" ng-show="Value==='Silver'">
+            {{Key}}
+            {{Value}}
+          </div>
+          <div class="badge Gold" ng-show="Value==='Gold'">
+            {{Key}}
+            {{Value}}
+          </div>
+          <div class="badge Platinum" ng-show="Value==='Platinum'">
+            {{Key}}
+            {{Value}}
+          </div>
+          <div class="badge Diamond" ng-show="Value==='Diamond'">
+            {{Key}}
+            {{Value}}
+          </div>
+          <div class="badge Gray" ng-show="Value==='-'">
+            {{Key}}
+            {{Value}}
+          </div>
+        </span>
       </div>
 
     </div>

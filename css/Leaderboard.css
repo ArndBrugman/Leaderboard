@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  padding:50px;
+  padding: 8px;
   font: 32px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight: 400;
@@ -8,11 +8,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
-  margin:0 0 20px;
+  margin: 0 0 0px;
 }
 
 h1 {
   display: inline-block;
+  margin-left: 20px;
   font-size: 40px;
   font-weight: 700;
 }
@@ -30,7 +31,8 @@ a {
 }
 
 a:hover {
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -44,7 +46,6 @@ header {
   noposition: fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-
 
 .team {
   font-size: 16px;
@@ -60,13 +61,48 @@ header {
 }
 
 .badge {
+  font-size: 8px;
   display: inline-block;
   background-color: #ffd700;
-  width: 25%;
-  height: 25%;
-  margin: 2px;
-  padding: 2px;
+  width: 32%;
+  height: 32%;
   border-radius: 3px;
+}
+
+.Gray {
+  background-color: #040404;
+  background-image: url(../img/Gray.png);
+  background-size: cover;
+}
+
+.Bronze {
+  background-color: #CD7F32;
+  background-image: url(../img/Bronze.png);
+  background-size: cover;
+}
+
+.Silver {
+  background-color: #C0C0C0;
+  background-image: url(../img/Silver.png);
+  background-size: cover;
+}
+
+.Gold {
+  background-color: #FDD017;
+  background-image: url(../img/Gold.png);
+  background-size: cover;
+}
+
+.Platinum {
+  background-color: #E5E4E2;
+  background-image: url(../img/Platinum.png);
+  background-size: cover;
+}
+
+.Diamond {
+  background-color: #4EE2EC;
+  background-image: url(../img/Diamond.png);
+  background-size: cover;
 }
 
 footer {

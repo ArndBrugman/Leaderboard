@@ -1,40 +1,146 @@
 {
   "Teams": [{
+    "name": "Applied Innovation Battle",
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "Bronze",
+      "Diverse": "Silver",
+      "Social": "Gold",
+      "Frontrunner": "Platinium",
+      "Marketeer": "Diamond"
+    }
+  }, {
     "name": "Activity Planner",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "BioPass",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "Diamond",
+      "Active": "Diamond",
+      "Diverse": "Diamond",
+      "Social": "Diamond",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Consuminer",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Peroonlijke Reisassistent",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Personal Newsticker",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "ProtoInside Case",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Referendum Platform",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Thuiszorg Tracker",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Twinkel",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Wake Up Bob",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Wearables Life Improvement",
-    "url:": "www"
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
   }, {
     "name": "Drone Safe2Fly",
-    "url:": "www"
-  }
-  ]
+    "url:": "www",
+    "Badges": {
+      "Liked": "-",
+      "Active": "-",
+      "Diverse": "-",
+      "Social": "-",
+      "Frontrunner": "-",
+      "Marketeer": "-"
+    }
+  }]
 }
