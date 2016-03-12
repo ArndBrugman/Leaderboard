@@ -23,12 +23,12 @@
         <h1>Sogeti Applied Innovation Battle</h1>
         <h2>Leaderboard for Teams</h2>
       </header>
-      <div class="team" ng-repeat="Team in Teams">
+      <div class="team" ng-repeat="Team in Teams | orderBy : 'Points' : true">
         <a href='{{Team.url}}'>{{Team.name}}</a><br>
-        <div class="badge"> </div>
-        <div class="badge"> </div>
-        <div class="badge"> </div>
-        <div class="badge"> </div>
+        <div class="badge" ng-repeat="(Key, Value) in Team.Badges" ng-show="Value!=='-'">
+          {{Key}}
+          {{Value}}
+        </div>
       </div>
 
     </div>

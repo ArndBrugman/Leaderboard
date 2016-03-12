@@ -46,7 +46,6 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-
 .team {
   font-size: 16px;
   display: block;
@@ -61,6 +60,7 @@ header {
 }
 
 .badge {
+  font-size: 8px;
   display: inline-block;
   background-color: #ffd700;
   width: 25%;
