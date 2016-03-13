@@ -27,6 +27,9 @@
       </header>
       
       <div class="inline-block-center">
+        <a href='https://www.facebook.com/AppliedInnovationBattle'><div class="Social Facebook"></div></a>
+        <a href='https://twitter.com/#sogetibattle'><div class="Social Twitter"></div></a>
+        </br>
         <div class="team" ng-repeat="Team in Teams | orderBy : 'Points' : true">
           <a href='{{Team.url}}'>{{Team.name}}</a><br>
           <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
@@ -50,12 +53,12 @@
               {{Key}}
               {{Value}}
             </div>
-            <div class="badge Gray" ng-show="Value==='-'">
-              {{Key}}
-              {{Value}}
+            <div class="badge Gray" ng-show="Value!=='Bronze' && Value!=='Silver' && Value!=='Gold' && Value!=='Platinum' && Value!=='Diamond'">
+              {{Key}}     
             </div>
           </span>
         </div>
+        
       </div>
 
     </div>
