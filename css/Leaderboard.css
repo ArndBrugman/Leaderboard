@@ -32,6 +32,10 @@ a {
 }
 
 a:hover {
+  text-decoration: underline;
+}
+
+.team a:hover {
   color: #ffffff;
   font-weight: 600;
   text-decoration: none;

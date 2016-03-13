@@ -23,13 +23,14 @@
 
       <header>
         <h1>Sogeti Applied Innovation Battle</h1>
-        <h2>Leaderboard for #SogetiBattle Teams</h2>
+        <h2>Leaderboard for #SogetiBattle</h2>
       </header>
       
       <div class="inline-block-center">
         <a href='https://www.facebook.com/AppliedInnovationBattle'><div class="Social Facebook"></div></a>
         <a href='https://twitter.com/#sogetibattle'><div class="Social Twitter"></div></a>
         </br>
+        
         <div class="team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true">
           <a href='{{Team.url}}'>{{Team.name}}</a><br>
           <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
