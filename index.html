@@ -17,48 +17,57 @@
     <link rel="stylesheet" href="css/Leaderboard.css">
     
   </head>
+
   <body>
     <div id='Leaderboard' ng-controller='LeaderboardController as LeaderboardCtrl'>
+
       <header>
         <h1>Sogeti Applied Innovation Battle</h1>
-        <h2>Leaderboard for Teams</h2>
+        <h2>Leaderboard for #SogetiBattle Teams</h2>
       </header>
-      <div class="team" ng-repeat="Team in Teams | orderBy : 'Points' : true">
-        <a href='{{Team.url}}'>{{Team.name}}</a><br>
-        <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
-          <div class="badge Bronze" ng-show="Value==='Bronze'">
-            {{Key}}
-            {{Value}}
-          </div>
-          <div class="badge Silver" ng-show="Value==='Silver'">
-            {{Key}}
-            {{Value}}
-          </div>
-          <div class="badge Gold" ng-show="Value==='Gold'">
-            {{Key}}
-            {{Value}}
-          </div>
-          <div class="badge Platinum" ng-show="Value==='Platinum'">
-            {{Key}}
-            {{Value}}
-          </div>
-          <div class="badge Diamond" ng-show="Value==='Diamond'">
-            {{Key}}
-            {{Value}}
-          </div>
-          <div class="badge Gray" ng-show="Value==='-'">
-            {{Key}}
-            {{Value}}
-          </div>
-        </span>
+      
+      <div class="inline-block-center">
+        <a href='https://www.facebook.com/AppliedInnovationBattle'><div class="Social Facebook"></div></a>
+        <a href='https://twitter.com/#sogetibattle'><div class="Social Twitter"></div></a>
+        </br>
+        <div class="team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true">
+          <a href='{{Team.url}}'>{{Team.name}}</a><br>
+          <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
+            <div class="badge Bronze" ng-show="Value==='Bronze'">
+              {{Key}}
+              {{Value}}
+            </div>
+            <div class="badge Silver" ng-show="Value==='Silver'">
+              {{Key}}
+              {{Value}}
+            </div>
+            <div class="badge Gold" ng-show="Value==='Gold'">
+              {{Key}}
+              {{Value}}
+            </div>
+            <div class="badge Platinum" ng-show="Value==='Platinum'">
+              {{Key}}
+              {{Value}}
+            </div>
+            <div class="badge Diamond" ng-show="Value==='Diamond'">
+              {{Key}}
+              {{Value}}
+            </div>
+            <div class="badge Gray" ng-show="Value!=='Bronze' && Value!=='Silver' && Value!=='Gold' && Value!=='Platinum' && Value!=='Diamond'">
+              {{Key}}     
+            </div>
+          </span>
+        </div>
+        
       </div>
 
     </div>
-    <br>
+
 
     <footer>
       <p>This project is maintained by <a href="https://github.com/ArndBrugman">Arnd Brugman</a> and Hosted on GitHub Pages</p>
     </footer>
+
     
   </body>
 </html>

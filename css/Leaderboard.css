@@ -1,9 +1,10 @@
-body {
+html, body {
   background-color: #fff;
   padding: 8px;
   font: 32px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight: 400;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,23 +42,47 @@ img {
 }
 
 header {
-  nodisplay: block;
-  nofloat: left;
-  noposition: fixed;
+  display: block;
+  text-align: center;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+.inline-block-center {
+  text-align: center;
+}
+.inline-block-center div {
+  display: inline-block;
+  text-align: center;
 }
 
 .team {
   font-size: 16px;
-  display: block;
+  display: inline-block;
   background-color: #ff4019;
   max-width: 100%;
-  width: 256px;
-  height: 256px;
-  float: left;
+  width: 240px;
+  height: 240px;
   margin: 8px;
   padding: 8px;
   border-radius: 5px;
+}
+
+.Social {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  padding-top: 2px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.Facebook {
+  background-image: url(../img/Facebook.png);
+}
+
+.Twitter {
+  background-image: url(../img/Twitter.png);
 }
 
 .badge {
@@ -66,6 +91,7 @@ header {
   background-color: #ffd700;
   width: 32%;
   height: 32%;
+  padding-top: 2px;
   border-radius: 3px;
 }
 
@@ -106,7 +132,7 @@ header {
 }
 
 footer {
-  nodisplay: block;
+  display: block;
   font-size: 12px;
   font-weight: 100;
   float: right;
