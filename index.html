@@ -30,7 +30,7 @@
         <a href='https://www.facebook.com/AppliedInnovationBattle'><div class="Social Facebook"></div></a>
         <a href='https://twitter.com/#sogetibattle'><div class="Social Twitter"></div></a>
         </br>
-        <div class="team" ng-repeat="Team in Teams | orderBy : 'Points' : true">
+        <div class="team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true">
           <a href='{{Team.url}}'>{{Team.name}}</a><br>
           <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
             <div class="badge Bronze" ng-show="Value==='Bronze'">
