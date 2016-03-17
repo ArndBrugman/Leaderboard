@@ -27,7 +27,7 @@ angular.module('Leaderboard').controller('LeaderboardController', function($scop
     $scope.Teams = [
   {
   	'name': 'Unable to load Teams.json',
-  	'url:': 'www',
+  	'url': 'www',
   }, ];
   });
     

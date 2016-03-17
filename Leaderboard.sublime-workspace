@@ -75,7 +75,7 @@
 			"file": "css/Leaderboard.css",
 			"settings":
 			{
-				"buffer_size": 2187,
+				"buffer_size": 2338,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +83,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2540,
+				"buffer_size": 2767,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "js/Leaderboard.js",
 			"settings":
 			{
-				"buffer_size": 1283,
+				"buffer_size": 1311,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +99,7 @@
 			"file": "Teams.json",
 			"settings":
 			{
-				"buffer_size": 2816,
+				"buffer_size": 2829,
 				"line_ending": "Unix"
 			}
 		}
@@ -146,6 +146,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"url\": \"www\",",
+			"url:",
 			"Item",
 			"menuimtem",
 			"StatusHeartbeat",
@@ -271,9 +273,7 @@
 			"1.11",
 			"3.3.2",
 			".scope",
-			".scope()",
-			"HueStatusController",
-			"StateToHTMLColor"
+			".scope()"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -281,6 +281,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"url\": \"https://www.facebook.com/\",",
+			"url\"url\": \"https://www.facebook.com/\",",
+			"url",
 			"click",
 			"list",
 			"div",
@@ -332,7 +335,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -340,15 +343,15 @@
 					"file": "css/Leaderboard.css",
 					"settings":
 					{
-						"buffer_size": 2187,
+						"buffer_size": 2338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								964,
-								964
+								1351,
+								1351
 							]
 						],
 						"settings":
@@ -358,7 +361,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 246.0,
+						"translation.y": 876.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -368,15 +371,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2540,
+						"buffer_size": 2767,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2281,
-								2281
+								2194,
+								2194
 							]
 						],
 						"settings":
@@ -386,7 +389,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -396,15 +399,15 @@
 					"file": "js/Leaderboard.js",
 					"settings":
 					{
-						"buffer_size": 1283,
+						"buffer_size": 1311,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								461,
-								461
+								343,
+								343
 							]
 						],
 						"settings":
@@ -424,15 +427,15 @@
 					"file": "Teams.json",
 					"settings":
 					{
-						"buffer_size": 2816,
+						"buffer_size": 2829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								520,
-								520
+								743,
+								743
 							]
 						],
 						"settings":
