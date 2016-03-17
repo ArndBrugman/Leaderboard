@@ -90,9 +90,9 @@ header {
 }
 
 .badge {
-  font-size: 8px;
+  font-size: 4px;
   display: inline-block;
-  background-color: #ffd700;
+  background-color: #886800;
   width: 32%;
   height: 32%;
   padding-top: 2px;
@@ -101,32 +101,32 @@ header {
 }
 
 .Gray {
-  background-color: #040404;
+  background-color: #101010;
   background-image: url(../img/Gray.png);
 }
 
 .Bronze {
-  background-color: #CD7F32;
+  background-color: #674022;
   background-image: url(../img/Bronze.png);
 }
 
 .Silver {
-  background-color: #C0C0C0;
+  background-color: #606060;
   background-image: url(../img/Silver.png);
 }
 
 .Gold {
-  background-color: #FDD017;
+  background-color: #87660c;
   background-image: url(../img/Gold.png);
 }
 
 .Platinum {
-  background-color: #E5E4E2;
+  background-color: #737271;
   background-image: url(../img/Platinum.png);
 }
 
 .Diamond {
-  background-color: #4EE2EC;
+  background-color: #277176;
   background-image: url(../img/Diamond.png);
 }
 

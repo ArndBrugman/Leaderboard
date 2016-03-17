@@ -335,7 +335,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -361,7 +361,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 876.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -378,8 +378,8 @@
 						"selection":
 						[
 							[
-								2194,
-								2194
+								2498,
+								2498
 							]
 						],
 						"settings":
