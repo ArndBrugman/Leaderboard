@@ -32,6 +32,10 @@ a {
 }
 
 a:hover {
+  text-decoration: underline;
+}
+
+.team a:hover {
   color: #ffffff;
   font-weight: 600;
   text-decoration: none;
@@ -86,49 +90,39 @@ header {
 }
 
 .badge {
-  font-size: 8px;
+  font-size: 6px;
   display: inline-block;
-  background-color: #ffd700;
+  color: #c0c0c0;
+  background-color: #000000;
   width: 32%;
   height: 32%;
   padding-top: 2px;
   border-radius: 3px;
+  background-size: cover;
 }
 
 .Gray {
-  background-color: #040404;
   background-image: url(../img/Gray.png);
-  background-size: cover;
 }
 
 .Bronze {
-  background-color: #CD7F32;
   background-image: url(../img/Bronze.png);
-  background-size: cover;
 }
 
 .Silver {
-  background-color: #C0C0C0;
   background-image: url(../img/Silver.png);
-  background-size: cover;
 }
 
 .Gold {
-  background-color: #FDD017;
   background-image: url(../img/Gold.png);
-  background-size: cover;
 }
 
 .Platinum {
-  background-color: #E5E4E2;
   background-image: url(../img/Platinum.png);
-  background-size: cover;
 }
 
 .Diamond {
-  background-color: #4EE2EC;
   background-image: url(../img/Diamond.png);
-  background-size: cover;
 }
 
 footer {
@@ -136,8 +130,6 @@ footer {
   font-size: 12px;
   font-weight: 100;
   float: right;
-  noposition: fixed;
-  nobottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 

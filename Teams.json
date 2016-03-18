@@ -1,18 +1,7 @@
 {
   "Teams": [{
-    "name": "Applied Innovation Battle",
-    "url:": "www",
-    "Badges": {
-      "Liked": "Aap",
-      "Active": "Bronze",
-      "Diverse": "Silver",
-      "Social": "Gold",
-      "Frontrunner": "Platinum",
-      "Marketeer": "Diamond"
-    }
-  }, {
     "name": "Activity Planner",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -23,7 +12,7 @@
     }
   }, {
     "name": "BioPass",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -34,7 +23,7 @@
     }
   }, {
     "name": "Consuminer",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -45,7 +34,7 @@
     }
   }, {
     "name": "Peroonlijke Reisassistent",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -56,7 +45,7 @@
     }
   }, {
     "name": "Personal Newsticker",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -67,7 +56,7 @@
     }
   }, {
     "name": "ProtoInside Case",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -78,7 +67,7 @@
     }
   }, {
     "name": "Referendum Platform",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -89,7 +78,7 @@
     }
   }, {
     "name": "Thuiszorg Tracker",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -100,7 +89,7 @@
     }
   }, {
     "name": "Twinkel",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -111,7 +100,7 @@
     }
   }, {
     "name": "Wake Up Bob",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -122,7 +111,7 @@
     }
   }, {
     "name": "Wearables Life Improvement",
-    "url:": "www",
+    "url": "https://www.facebook.com/auticwhere/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -133,7 +122,7 @@
     }
   }, {
     "name": "Drone Safe2Fly",
-    "url:": "www",
+    "url": "https://www.facebook.com/",
     "Badges": {
       "Liked": "-",
       "Active": "-",

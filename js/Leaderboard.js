@@ -5,10 +5,24 @@ var app = angular.module('Leaderboard', ['ngAnimate']);
 
   
 angular.module('Leaderboard').controller('LeaderboardController', function($scope, $http) {
+  Test = {
+    "name": "Test",
+    "url": "https://www.facebook.com/",
+    "Badges": {
+      "Liked": "Gray",
+      "Active": "Bronze",
+      "Diverse": "Silver",
+      "Social": "Gold",
+      "Frontrunner": "Platinum",
+      "Marketeer": "Diamond"
+    }
+  }
   $scope.Teams = [  ];
 
   $http.get('Teams.json').success(function(data, status, headers, config) {
     $scope.Teams = data.Teams;
+    if (window.location.href.toLowerCase().indexOf("test")>0)
+      $scope.Teams.push(Test);
     for (TeamNr in $scope.Teams) {
       //console.log($scope.Teams[TeamNr]);
       $scope.Teams[TeamNr].Points = 0;
@@ -27,7 +41,7 @@ angular.module('Leaderboard').controller('LeaderboardController', function($scop
     $scope.Teams = [
   {
   	'name': 'Unable to load Teams.json',
-  	'url:': 'www',
+  	'url': 'www',
   }, ];
   });
     
