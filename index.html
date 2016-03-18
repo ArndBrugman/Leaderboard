@@ -35,27 +35,22 @@
           <a href='{{Team.url}}'>{{Team.name}}</a><br>
           <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
             <div class="badge Bronze" ng-show="Value==='Bronze'">
-              {{Key}}
-              {{Value}}
+              {{Value}} - {{Key}}
             </div>
             <div class="badge Silver" ng-show="Value==='Silver'">
-              {{Key}}
-              {{Value}}
+              {{Value}} - {{Key}}
             </div>
             <div class="badge Gold" ng-show="Value==='Gold'">
-              {{Key}}
-              {{Value}}
+              {{Value}} - {{Key}}
             </div>
             <div class="badge Platinum" ng-show="Value==='Platinum'">
-              {{Key}}
-              {{Value}}
+              {{Value}} - {{Key}}
             </div>
             <div class="badge Diamond" ng-show="Value==='Diamond'">
-              {{Key}}
-              {{Value}}
+              {{Value}} - {{Key}}
             </div>
             <div class="badge Gray" ng-show="Value!=='Bronze' && Value!=='Silver' && Value!=='Gold' && Value!=='Platinum' && Value!=='Diamond'">
-              {{Key}}     
+              Gain - {{Key}}     
             </div>
           </span>
         </div>

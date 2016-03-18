@@ -75,7 +75,7 @@
 			"file": "css/Leaderboard.css",
 			"settings":
 			{
-				"buffer_size": 2338,
+				"buffer_size": 2356,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +99,7 @@
 			"file": "Teams.json",
 			"settings":
 			{
-				"buffer_size": 2829,
+				"buffer_size": 3080,
 				"line_ending": "Unix"
 			}
 		}
@@ -335,7 +335,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -343,15 +343,15 @@
 					"file": "css/Leaderboard.css",
 					"settings":
 					{
-						"buffer_size": 2338,
+						"buffer_size": 2356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1351,
-								1351
+								1654,
+								1654
 							]
 						],
 						"settings":
@@ -361,7 +361,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1473.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -378,8 +378,8 @@
 						"selection":
 						[
 							[
-								2498,
-								2498
+								1227,
+								1227
 							]
 						],
 						"settings":
@@ -389,7 +389,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 330.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -406,8 +406,8 @@
 						"selection":
 						[
 							[
-								343,
-								343
+								1070,
+								1070
 							]
 						],
 						"settings":
@@ -427,15 +427,15 @@
 					"file": "Teams.json",
 					"settings":
 					{
-						"buffer_size": 2829,
+						"buffer_size": 3080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								743,
-								743
+								719,
+								719
 							]
 						],
 						"settings":

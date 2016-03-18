@@ -11,17 +11,6 @@
       "Marketeer": "-"
     }
   }, {
-    "name": "Test",
-    "url": "https://www.facebook.com/",
-    "Badges": {
-      "Liked": "Gray",
-      "Active": "Bronze",
-      "Diverse": "Silver",
-      "Social": "Gold",
-      "Frontrunner": "Platinum",
-      "Marketeer": "Diamond"
-    }
-  }, {
     "name": "BioPass",
     "url": "https://www.facebook.com/",
     "Badges": {
