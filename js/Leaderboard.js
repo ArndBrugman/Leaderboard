@@ -6,8 +6,8 @@ var app = angular.module('Leaderboard', ['ngAnimate']);
   
 angular.module('Leaderboard').controller('LeaderboardController', function($scope, $http) {
   Test = {
-    "name": "Test",
-    "url": "https://www.facebook.com/",
+    "name": "Applied Innovation Battle",
+    "url": "https://www.facebook.com/AppliedInnovationBattle",
     "Badges": {
       "Liked": "Gray",
       "Active": "Bronze",
@@ -21,7 +21,7 @@ angular.module('Leaderboard').controller('LeaderboardController', function($scop
 
   $http.get('Teams.json').success(function(data, status, headers, config) {
     $scope.Teams = data.Teams;
-    if (window.location.href.toLowerCase().indexOf("test")>0)
+    if (window.location.href.toLowerCase().indexOf("/?test")>0)
       $scope.Teams.push(Test);
     for (TeamNr in $scope.Teams) {
       //console.log($scope.Teams[TeamNr]);

@@ -85,6 +85,11 @@ header {
   background-image: url(../img/Facebook.png);
 }
 
+.Mini {
+  width: 16px;
+  height: 16px;
+}
+
 .Twitter {
   background-image: url(../img/Twitter.png);
 }
