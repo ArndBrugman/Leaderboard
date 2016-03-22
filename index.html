@@ -33,7 +33,6 @@
         
         <div class="team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true">
           <a href='{{Team.url}}'>{{Team.name}} 
-            <div class="Social Facebook Mini" ng-show="Team.url!=''"></div>
           </a><br>
           <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
             <div class="badge Bronze" ng-show="Value==='Bronze'">
@@ -55,8 +54,12 @@
               Gain - {{Key}}     
             </div>
           </span>
+          <div>
+            <a href='{{Team.url}}' ng-show="Team.url!=''">
+              <div class="Mini Facebook" ></div>
+            </a>
+          </div>
         </div>
-        
       </div>
 
     </div>
