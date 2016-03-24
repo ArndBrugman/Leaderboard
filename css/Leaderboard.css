@@ -59,7 +59,7 @@ header {
   text-align: center;
 }
 
-.team {
+.Team {
   font-size: 16px;
   background-color: #ff4019;
   max-width: 100%;
@@ -95,7 +95,7 @@ header {
   background-image: url(../img/Twitter.png);
 }
 
-.badge {
+.Badge {
   font-size: 6px;
   color: #c0c0c0;
   background-color: #000000;
