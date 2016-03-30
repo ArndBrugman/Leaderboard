@@ -60,7 +60,7 @@
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Silver",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"
@@ -77,6 +77,7 @@
       "Marketeer": "-"
     }
   }, {
+    "out": "true",
     "name": "Thuiszorg Tracker",
     "url": "",
     "Badges": {
@@ -104,18 +105,18 @@
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Bronze",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"
     }
   }, {
-    "name": "Wearables Life Improvement",
+    "name": "AuticWhere",
     "url": "https://www.facebook.com/auticwhere/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Bronze",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"

@@ -31,7 +31,7 @@
         <a href='https://twitter.com/#sogetibattle'><div class="Social Twitter"></div></a>
         </br>
         
-        <div class="Team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true">
+        <div class="Team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true" ng-show="!Team.out">
           <a href='{{Team.url}}'>{{Team.name}} 
           </a><br>
           <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
@@ -50,7 +50,7 @@
         </div>
       </div>
 
-    </div>
+    </div><!-- Leaderboard -->
 
 
     <footer>
