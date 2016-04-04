@@ -28,6 +28,7 @@ angular.module('Leaderboard').controller('LeaderboardController', function($scop
       $scope.Teams[TeamNr].Points = 0;
       for (Badge in $scope.Teams[TeamNr].Badges) {
         //console.log(Badge, $scope.Teams[TeamNr].Badges[Badge]);
+        if ($scope.Teams[TeamNr].url != ""   ) $scope.Teams[TeamNr].Points += 0.01;
         if ($scope.Teams[TeamNr].Badges[Badge] === "Bronze"   ) $scope.Teams[TeamNr].Points += 1;
         if ($scope.Teams[TeamNr].Badges[Badge] === "Silver"   ) $scope.Teams[TeamNr].Points += 2;
         if ($scope.Teams[TeamNr].Badges[Badge] === "Gold"     ) $scope.Teams[TeamNr].Points += 4;
