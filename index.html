@@ -31,33 +31,26 @@
         <a href='https://twitter.com/#sogetibattle'><div class="Social Twitter"></div></a>
         </br>
         
-        <div class="team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true">
-          <a href='{{Team.url}}'>{{Team.name}}</a><br>
+        <div class="Team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true" ng-show="!Team.out">
+          <a href='{{Team.url}}'>{{Team.name}} 
+          </a><br>
           <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
-            <div class="badge Bronze" ng-show="Value==='Bronze'">
+            <div class="Badge {{Value}}" ng-show="Value==='Bronze' || Value==='Silver' || Value==='Gold' || Value==='Platinum' || Value==='Diamond'">
               {{Value}} - {{Key}}
-            </div>
-            <div class="badge Silver" ng-show="Value==='Silver'">
-              {{Value}} - {{Key}}
-            </div>
-            <div class="badge Gold" ng-show="Value==='Gold'">
-              {{Value}} - {{Key}}
-            </div>
-            <div class="badge Platinum" ng-show="Value==='Platinum'">
-              {{Value}} - {{Key}}
-            </div>
-            <div class="badge Diamond" ng-show="Value==='Diamond'">
-              {{Value}} - {{Key}}
-            </div>
-            <div class="badge Gray" ng-show="Value!=='Bronze' && Value!=='Silver' && Value!=='Gold' && Value!=='Platinum' && Value!=='Diamond'">
-              Gain - {{Key}}     
+            </div>            
+            <div class="Badge Gray" ng-show="Value!=='Bronze' && Value!=='Silver' && Value!=='Gold' && Value!=='Platinum' && Value!=='Diamond'">
+              Gain - {{Key}}
             </div>
           </span>
+          <div>
+            <a href='{{Team.url}}' ng-show="Team.url!=''">
+              <div class="Mini Facebook" ></div>
+            </a>
+          </div>
         </div>
-        
       </div>
 
-    </div>
+    </div><!-- Leaderboard -->
 
 
     <footer>

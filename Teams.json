@@ -1,7 +1,7 @@
 {
   "Teams": [{
     "name": "Activity Planner",
-    "url": "https://www.facebook.com/",
+    "url": "",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -12,7 +12,7 @@
     }
   }, {
     "name": "BioPass",
-    "url": "https://www.facebook.com/",
+    "url": "",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -23,7 +23,7 @@
     }
   }, {
     "name": "Consuminer",
-    "url": "https://www.facebook.com/",
+    "url": "https://www.facebook.com/Consuminer",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -34,7 +34,8 @@
     }
   }, {
     "name": "Peroonlijke Reisassistent",
-    "url": "https://www.facebook.com/",
+    "out": "true",
+    "url": "",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -45,7 +46,7 @@
     }
   }, {
     "name": "Personal Newsticker",
-    "url": "https://www.facebook.com/",
+    "url": "",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -56,18 +57,18 @@
     }
   }, {
     "name": "ProtoInside Case",
-    "url": "https://www.facebook.com/",
+    "url": "https://www.facebook.com/protoinsideCase",
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Silver",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"
     }
   }, {
     "name": "Referendum Platform",
-    "url": "https://www.facebook.com/",
+    "url": "",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -77,8 +78,9 @@
       "Marketeer": "-"
     }
   }, {
+    "out": "true",
     "name": "Thuiszorg Tracker",
-    "url": "https://www.facebook.com/",
+    "url": "",
     "Badges": {
       "Liked": "-",
       "Active": "-",
@@ -88,41 +90,41 @@
       "Marketeer": "-"
     }
   }, {
-    "name": "Twinkel",
-    "url": "https://www.facebook.com/",
+    "name": "Rinkel",
+    "url": "https://www.facebook.com/applied.innovation.battle.twinkle",
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Bronze",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"
     }
   }, {
     "name": "Wake Up Bob",
-    "url": "https://www.facebook.com/",
+    "url": "https://www.facebook.com/WakeupBob",
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Bronze",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"
     }
   }, {
-    "name": "Wearables Life Improvement",
+    "name": "AuticWhere",
     "url": "https://www.facebook.com/auticwhere/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Bronze",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"
     }
   }, {
     "name": "Drone Safe2Fly",
-    "url": "https://www.facebook.com/",
+    "url": "",
     "Badges": {
       "Liked": "-",
       "Active": "-",

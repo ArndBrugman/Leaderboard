@@ -6,8 +6,8 @@ var app = angular.module('Leaderboard', ['ngAnimate']);
   
 angular.module('Leaderboard').controller('LeaderboardController', function($scope, $http) {
   Test = {
-    "name": "Test",
-    "url": "https://www.facebook.com/",
+    "name": "Applied Innovation Battle",
+    "url": "https://www.facebook.com/AppliedInnovationBattle",
     "Badges": {
       "Liked": "Gray",
       "Active": "Bronze",
@@ -21,13 +21,14 @@ angular.module('Leaderboard').controller('LeaderboardController', function($scop
 
   $http.get('Teams.json').success(function(data, status, headers, config) {
     $scope.Teams = data.Teams;
-    if (window.location.href.toLowerCase().indexOf("test")>0)
+    if (window.location.href.toLowerCase().indexOf("/?test")>0)
       $scope.Teams.push(Test);
     for (TeamNr in $scope.Teams) {
       //console.log($scope.Teams[TeamNr]);
       $scope.Teams[TeamNr].Points = 0;
       for (Badge in $scope.Teams[TeamNr].Badges) {
         //console.log(Badge, $scope.Teams[TeamNr].Badges[Badge]);
+        if ($scope.Teams[TeamNr].url != ""   ) $scope.Teams[TeamNr].Points += 0.01;
         if ($scope.Teams[TeamNr].Badges[Badge] === "Bronze"   ) $scope.Teams[TeamNr].Points += 1;
         if ($scope.Teams[TeamNr].Badges[Badge] === "Silver"   ) $scope.Teams[TeamNr].Points += 2;
         if ($scope.Teams[TeamNr].Badges[Badge] === "Gold"     ) $scope.Teams[TeamNr].Points += 4;

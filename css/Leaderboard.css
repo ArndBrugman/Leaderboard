@@ -59,9 +59,8 @@ header {
   text-align: center;
 }
 
-.team {
+.Team {
   font-size: 16px;
-  display: inline-block;
   background-color: #ff4019;
   max-width: 100%;
   width: 240px;
@@ -72,10 +71,8 @@ header {
 }
 
 .Social {
-  display: inline-block;
   width: 32px;
   height: 32px;
-  padding-top: 2px;
   border-radius: 3px;
   background-color: #ffffff;
   background-size: cover;
@@ -85,13 +82,21 @@ header {
   background-image: url(../img/Facebook.png);
 }
 
+.Mini {
+  margin-bottom: -20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
 .Twitter {
   background-image: url(../img/Twitter.png);
 }
 
-.badge {
+.Badge {
   font-size: 6px;
-  display: inline-block;
   color: #c0c0c0;
   background-color: #000000;
   width: 32%;
