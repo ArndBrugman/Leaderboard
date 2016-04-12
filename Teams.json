@@ -90,7 +90,6 @@
       "Marketeer": "-"
     }
   }, {
-    "out": "true",
     "name": "Rinkel",
     "url": "https://www.facebook.com/applied.innovation.battle.twinkle",
     "Badges": {
@@ -102,6 +101,7 @@
       "Marketeer": "-"
     }
   }, {
+    "out": "true",
     "name": "Wake Up Bob",
     "url": "https://www.facebook.com/WakeupBob",
     "Badges": {
