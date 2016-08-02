@@ -33,6 +33,7 @@
         <div class="Team" ng-repeat="Team in Teams | orderBy:random | orderBy:'Points':true" ng-show="!Team.out">
           <a href='{{Team.url}}'>{{Team.name}} 
           </a><br>
+          
           <span ng-repeat="(Key, Value) in Team.Badges" title="{{Key}}">
             <div class="Badge {{Value}}" ng-show="Value==='Bronze' || Value==='Silver' || Value==='Gold' || Value==='Platinum' || Value==='Diamond'">
               {{Value}} - {{Key}}

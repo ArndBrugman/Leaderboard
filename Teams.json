@@ -27,14 +27,14 @@
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Bronze",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"
     }
   }, {
-    "name": "Peroonlijke Reisassistent",
     "out": "true",
+    "name": "Peroonlijke Reisassistent",
     "url": "",
     "Badges": {
       "Liked": "-",
@@ -101,6 +101,7 @@
       "Marketeer": "-"
     }
   }, {
+    "out": "true",
     "name": "Wake Up Bob",
     "url": "https://www.facebook.com/WakeupBob",
     "Badges": {
@@ -124,11 +125,11 @@
     }
   }, {
     "name": "Drone Safe2Fly",
-    "url": "",
+    "url": "https://www.facebook.com/AIBDroneFit2Fly/",
     "Badges": {
       "Liked": "-",
       "Active": "-",
-      "Diverse": "-",
+      "Diverse": "Bronze",
       "Social": "-",
       "Frontrunner": "-",
       "Marketeer": "-"

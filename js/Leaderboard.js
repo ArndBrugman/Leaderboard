@@ -3,8 +3,9 @@ var app = angular.module('Leaderboard', ['ngAnimate']);
 
 (function () {
 
-  
-angular.module('Leaderboard').controller('LeaderboardController', function($scope, $http) {
+app
+
+.controller('LeaderboardController', function($scope, $http) {
   Test = {
     "name": "Applied Innovation Battle",
     "url": "https://www.facebook.com/AppliedInnovationBattle",
